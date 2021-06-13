@@ -2,16 +2,29 @@
 
 
 {% block body %}
+
 <div class="row">
-    <div class="col-4">
+    <div class="col-2 left-col">
         left-col
     </div>
-    <div class="col-8">
-        <div class="main">
-            main
-            <div id="content"></div>
+    <div class="col-10">
+        <form action="" class="mb-5 mt-5 col-md-4 col-12" id="filterForm">
+            <div class="form-item mb-3">
+                <label for="start">Start date</label>
+                <input type="date" class="form-control" id="startDay">
+            </div>
+            <div class="form-item mb-3">
+                <label for="end">End date</label>
+                <input type="date" class="form-control" id="endDay">
+            </div>
+            <div class="form-item">
+                <button class="btn btn-primary" type="submit">Submit</button>
+            </div>
+        </form>
+        <div class="main articles row">
+
         </div>
-        <div class="sub-main">
+        <div class="sub-main mt-5">
             <div class="row">
                 <div class="col-6">
                     left-main 

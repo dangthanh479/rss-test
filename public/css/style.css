@@ -1,3 +1,14 @@
-.main{
-    color:red;
+.item img {
+    max-width:100%;
+    display:block;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+.left-col{
+    background-color:#F8F9FA;
+}
+footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #7AE1E5;
 }
